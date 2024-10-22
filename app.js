@@ -19,9 +19,9 @@ var playAgain = document.getElementById("playAg");
 // input head and tail for player 1
 var player1;
 var player2;
-player1 = prompt("choose the value : Head / Tail");
+player1 = prompt("player 1: Select (Head or Tail)");
 while (player1.toLowerCase() !== "head" && player1.toLowerCase() !== "tail") {
-  player1 = prompt("Invalid choice! choose the value : Head / Tail");
+  player1 = prompt("Invalid choice! please select : Head / Tail");
 }
 
 //  inner Text to show who choose H/T
